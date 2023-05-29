@@ -1,37 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Ship</title>
-        <link rel="icon" type="image/x-icon" href="logo.png">
-        <link rel="stylesheet" href="Style.css">
-        <script src="https://kit.fontawesome.com/6f8883857a.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="top-bar">
-            <div id="top-bar-section1">
-                <button class="top-bar-button sales">Sales</button>
-                <button class="top-bar-button foryou">For You</button>
-                <button class="top-bar-button popular">Popular</button>
-            </div>
-            <div id="top-bar-section2">
-                <div id="search-area">
-                    <div id="search-logo"></div>
-                    <input type="text" id="search-bar" placeholder="What are you looking for?"/>
-                    <div id="search-button"></div>
-                    <div id="search-results"></div>
-                </div>
-            </div>
-            <div id="top-bar-section3">
-                <button class="top-bar-button location">Location</button>
-                <button class="top-bar-button language">Language<span id="current-language"></span></button>
-                <button class="top-bar-button account">Sign-in</button>
-            </div>
-        </div>
-        
-        <div id="showcase-page">
-            
-        </div>
-        
-        <script src="Script.js"></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Ship</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="top-bar">
+        <input id="top-bar-search-bar" type="text" placeholder="Search">
+        <button id="top-bar-search-bar-exit">Exit</button>
+        <div id="top-bar-menu-button"></div>
+    </div>
+    <div id="search-results"></div>
+    <div id="menu">
+        <div class="menu-item signin">Sign-in</div>
+        <div class="menu-item join">Join</div>
+        <div class="menu-item about">About</div>
+        <div class="menu-item learn">Learn</div>
+        <div class="menu-item support">Support</div>
+        <div class="menu-item sell">Sell</div>
+        <div class="menu-item shipplus">Ship Plus</div>
+    </div>
+    <div id="featured-page">
+
+    </div>
+    <script src="Script.js"></script>
+</body>
 </html>
