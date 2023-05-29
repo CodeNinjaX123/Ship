@@ -122,7 +122,7 @@ function itemThumbnailView(item) {
     elements.featuredpage.appendChild(shell);
 
     var image = document.createElement("img");
-    image.src = item.thumbnail;
+    image.src = item.thumbnail || "No_Image.png";
     image.setAttribute("class", "featured-page-item-image");
     shell.appendChild(image);
 
